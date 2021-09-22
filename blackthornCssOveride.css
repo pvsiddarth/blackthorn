@@ -1,0 +1,36 @@
+.Day__date Day__date--today {
+  border: blue;
+  background: green;
+}
+.start-dates {
+  display: none;
+}
+.Calendar__container {
+  width: 300px;
+  margin: auto;
+}
+.Day {
+  height: 20px;
+}
+/* .Calendar__container{
+    padding: 100px
+} */
+.Calendar {
+  /* width: 300px */
+}
+.Calendar__monthAndYear {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+  font-weight: 300;
+  justify-content: space-between;
+  line-height: calc(1.5 * var(--lineHeightFactor));
+  margin: 0;
+  padding: 1rem 0;
+  position: sticky;
+  top: 4.5rem;
+  background-color: var(--surfaceBkgdColor);
+  text-transform: capitalize;
+  z-index: 1000;
+}

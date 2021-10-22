@@ -1,4 +1,4 @@
-.Day__date Day__date--today {
+.Day__date .Day__date--today {
   border: blue !important;
   background: green !important;
 }
@@ -10,7 +10,7 @@
   margin: auto !important;
 }
 .Day {
-  height: 20px;
+  height: 20px !important;
 }
 /* .Calendar__container{
     padding: 100px 

@@ -34,3 +34,7 @@
   text-transform: capitalize;
   z-index: 1000;
 }
+
+.main-container.ng-star-inserted .content-container .sidebar { 
+  display:none!important; 
+}

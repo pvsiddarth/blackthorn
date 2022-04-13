@@ -38,3 +38,7 @@
 .main-container.ng-star-inserted .content-container .sidebar { 
   display:none!important; 
 }
+
+.category-group:last-child{ 
+ display: none; 
+}
